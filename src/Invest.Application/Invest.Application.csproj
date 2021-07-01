@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Invest.Domain\Invest.Domain.csproj" />
+      <ProjectReference Include="..\Invest.Infra.Cache\Invest.Infra.Cache.csproj" />
+      <ProjectReference Include="..\Invest.Infra.FixedIncome\Invest.Infra.FixedIncome.csproj" />
+      <ProjectReference Include="..\Invest.Infra.Funds\Invest.Infra.Funds.csproj" />
+      <ProjectReference Include="..\Invest.Infra.DirectTreasury\Invest.Infra.DirectTreasury.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="10.1.1" />
+      <PackageReference Include="FluentValidation" Version="10.2.3" />
+      <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
+      <PackageReference Include="Serilog" Version="2.10.0" />
+    </ItemGroup>
+
+</Project>
