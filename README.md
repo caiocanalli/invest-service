@@ -31,7 +31,7 @@ Os testes unitários cobrem as camadas de Aplicação e Domínio.
 ### Execução
 
 Para executar o projeto, é necessário o docker-compose instalado na máquina.  
-Neste [repositório](https://www.google.com), é possível baixar os arquivos do docker-compose para executar o projeto.  
+Neste [repositório](https://github.com/caiocanalli/invest-stack), é possível baixar os arquivos do docker-compose para executar o projeto.  
 Baixe os projetos invest-stack e invest-service no mesmo diretório. Entre no projeto invest-stack, na pasta docker-compose e execute o comando:
 
 ```sh
